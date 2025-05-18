@@ -1,0 +1,307 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "abd72527-7b58-4bae-8d56-d463d7f693a9")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 151.13 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31772d5a-9180-4758-ad71-70f5502a3b15")
+	)
+	(wire
+		(pts
+			(xy 144.78 120.65) (xy 151.13 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db51f2c-679f-4392-a46b-8155c07b7cd1")
+	)
+	(wire
+		(pts
+			(xy 144.78 118.11) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520518cd-bf62-4fda-96c0-1016492daade")
+	)
+	(wire
+		(pts
+			(xy 144.78 102.87) (xy 151.13 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be0884a-4415-4d57-9852-1f67cb4503a3")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74624af4-e2e0-41b3-8938-c9046d796d8d")
+	)
+	(wire
+		(pts
+			(xy 144.78 100.33) (xy 151.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda5cbad-61be-4171-97e0-3cb4ef7f5e71")
+	)
+	(sheet
+		(at 99.06 96.52)
+		(size 45.72 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02c5e761-ea9a-47e6-b9d5-d6162733ac6a")
+		(property "Sheetname" "MCU"
+			(at 99.06 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 99.06 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" output
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6e3a3a62-9ba2-46f6-a810-9c5d31cd129e")
+		)
+		(pin "CT_IN1" input
+			(at 144.78 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "485a59f5-f3eb-4201-8292-23463041ee23")
+		)
+		(pin "PD_IN1" input
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cbdad611-817f-48db-a3e6-168f280d46cd")
+		)
+		(pin "VREF_ADC1" input
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d90381ab-9dd0-4d46-a47b-8c927ed4b092")
+		)
+		(pin "VCC" output
+			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da047c2d-b410-493d-8f87-2e9137c75890")
+		)
+		(pin "3V3" output
+			(at 144.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5d6d471-164c-4cbf-b4fd-2841d40aea8b")
+		)
+		(instances
+			(project "PowerStream_Mainboard"
+				(path "/abd72527-7b58-4bae-8d56-d463d7f693a9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 97.79)
+		(size 45.72 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e13cccb-afa9-49e5-b7a7-0c6f88efb2e3")
+		(property "Sheetname" "PD_CT"
+			(at 151.13 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PD_CT.kicad_sch"
+			(at 151.13 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VREF_ADC1" output
+			(at 151.13 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c84ab21-2166-4e7d-b326-4baf911ce779")
+		)
+		(pin "GND" input
+			(at 151.13 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3eb2b529-8af3-40a4-b4eb-f268fb493812")
+		)
+		(pin "VCC_OPAMP" input
+			(at 151.13 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "56a5712a-f2f9-474f-a1fb-933da355e555")
+		)
+		(pin "PD_OUT1" output
+			(at 151.13 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "354507b7-f6e3-421a-9a7a-d994ba5b81ba")
+		)
+		(pin "CT_OUT1" output
+			(at 151.13 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac94d2ce-64a4-45e8-b79f-93bca98f8360")
+		)
+		(pin "3V3" input
+			(at 151.13 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae51537a-9a63-41c9-8888-a8c06c8dfda7")
+		)
+		(instances
+			(project "PowerStream_Mainboard"
+				(path "/abd72527-7b58-4bae-8d56-d463d7f693a9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 57.15)
+		(size 45.72 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afc2d91c-3365-4eec-a409-68bf8c24f645")
+		(property "Sheetname" "Power"
+			(at 99.06 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 99.06 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerStream_Mainboard"
+				(path "/abd72527-7b58-4bae-8d56-d463d7f693a9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
